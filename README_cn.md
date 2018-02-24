@@ -5,8 +5,8 @@
 ## 安装
 请安装GitHub Desktop进行VAD01项目协同开发管理
 建议安装Sublime Text进行VAD01项目开发编辑
-Apollo采用bazel作为代码编译构建工具，编译c++代码
-每个源码文件夹下有一个BUILD文件，作用是按照bazel的格式来编译代码
+\\Apollo采用bazel作为代码编译构建工具，编译c++代码
+\\每个源码文件夹下有一个BUILD文件，作用是按照bazel的格式来编译代码
 
 ## 文档
 顶层文档架构要求如下，
