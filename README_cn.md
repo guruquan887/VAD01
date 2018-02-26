@@ -7,6 +7,7 @@
 建议安装Sublime Text进行VAD01项目开发编辑
 \\Apollo采用bazel作为代码编译构建工具，编译c++代码
 \\每个源码文件夹下有一个BUILD文件，作用是按照bazel的格式来编译代码
+\\OS:Ubuntu Linux 14.04
 
 ## 文档
 顶层文档架构要求如下，
@@ -25,9 +26,14 @@
       *┝[canbus](01需求分析/modules/canbus/):CAN总线，收发指令，控制底盘并反馈状态
        ┝[common](01需求分析/modules/commmon/):公有的源码模块
       *┝[control](01需求分析/modules/control/):主控制模块 ，基于车道规划和车辆当前状态，输出转向、加速和制动控制信号到CAN卡
+       ┝[data](01需求分析/modules/data/):收集、存储、处理收集到的各种数据
+       ┝[dreamview](01需求分析/modules/dreamview/):一个Web应用，帮助用户随时掌握系统的输出数据，包括车道、位置、车身等情况
        ┝[drivers](01需求分析/modules/drivers/):CAN卡、雷达、GPS等驱动程序
+       ┝[e2e](01需求分析/modules/e2e/):端到端的深度学习  
+       ┝[elo](01需求分析/modules/elo/):百度的车辆自身定位，前向摄像头、全球定位系统、百度高精地图      
       *┝[localization](01需求分析/modules/localization/):车辆定位服务
       *┝[map](01需求分析/modules/map/):地图      
+       ┝[monitor](01需求分析/modules/monitor/):监测硬件状态及整个系统的健康程度  
       *┝[perception](01需求分析/modules/perception):障碍物和红绿灯等交通信号感知
       *┝[planning](01需求分析/modules/planning/):根据车辆位置和车辆状态、地图、障碍物、导航信息等计算具体的车道
       *┝[prediction](01需求分析/modules/prediction/):计算障碍物的可能轨迹
