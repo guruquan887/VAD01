@@ -11,7 +11,7 @@
 
 ## 文档
 顶层文档架构要求如下，
-**文档参考apollo-2.0.0文档树**：
+**文档可参考apollo-2.0.0文档树**：
 
 [00硬件]
    ┝[00车型](00硬件/00车型/):应用场景车型
@@ -19,9 +19,6 @@
    └[02BOSCH](00硬件/02BOSCH/)：线控厂家博世相关信息
 [01需求分析]
    ┝[docs](01需求分析/docs/)此目录下可以找到VAD01文档
-       ┝[standards](01需求分析/docs/standards/):法规标准
-       ┝[FAQs](01需求分析/docs/FAQs/):常见问题
-       └[specs](01需求分析/docs/specs/):VAD01 v1.0 技术文档
    ┝[modules](01需求分析/modules/)：模块化设计
    ┝[third_party](01需求分析/third_party/)：第三方插件
    └[tools](01需求分析/tools/)：
