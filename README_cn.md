@@ -4,9 +4,11 @@
 
 ## 安装
 请安装GitHub Desktop进行VAD01项目协同开发管理
+
 建议安装Sublime Text进行VAD01项目开发编辑
-\\Apollo采用bazel作为代码编译构建工具，编译c++代码
-\\每个源码文件夹下有一个BUILD文件，作用是按照bazel的格式来编译代码
+
+**Apollo采用bazel作为代码编译构建工具，编译c++代码**
+*每个源码文件夹下有一个BUILD文件，作用是按照bazel的格式来编译代码*
 \\OS:Ubuntu Linux 14.04
 
 ## 文档
@@ -14,9 +16,9 @@
 **文档可参考apollo-2.0.0文档树**：
 
 [00硬件]
-   ┝[00车型](00硬件/00车型/):应用场景车型
-   ┝[01NVIDIA](00硬件/01NVIDIA/)：英伟达快速开发套件JETSON TX1&TX2
-   └[02BOSCH](00硬件/02BOSCH/)：线控厂家博世相关信息
+┝[00车型](https://github.com/guruquan887/VAD01/00硬件/00车型/):应用场景车型
+┝[01NVIDIA](https://github.com/guruquan887/VAD01/00硬件/01NVIDIA/)：英伟达快速开发套件JETSON TX1&TX2
+└[02BOSCH](https://github.com/guruquan887/VAD01/00硬件/02BOSCH/)：线控厂家博世相关信息
 [01需求分析]
    ┝[docs](01需求分析/docs/)此目录下可以找到VAD01文档
    ┝[modules](01需求分析/modules/)：模块化设计
