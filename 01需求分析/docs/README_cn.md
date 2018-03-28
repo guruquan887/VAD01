@@ -25,7 +25,7 @@
 
        ┝[howto](01需求分析/docs/howto/):编译、运行、修改代码教程
 
-       ┝[know-how](01需求分析/docs/know-how/):项目介绍、Milestone、项目报告、装车指导书等作业手册
+       ┝[know-how](01需求分析/docs/know-how/):项目介绍、Milestone、项目报告
 
        ┝[quickstart](01需求分析/docs/quickstart/):快速入门手册 
 
